@@ -1,0 +1,777 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+    /* border: 1px solid red; */
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p {
+    text-wrap: balance;
+}
+
+input,
+textarea,
+button {
+    font-family: inherit
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+ :root {
+    --primaryColor: #ffffff;
+    --secondaryColor: #660600;
+    --darkColor: #081616;
+    --lightColor: #a5aaa9;
+    --regularFont: 1.6rem;
+    --headingFont: 54px;
+    --ffPrimary: "Raleway", sans-serif;
+}
+
+
+/* Default code Ends here */
+
+
+/* project standard classes Starts */
+
+.align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+.componentSpacing {
+    padding: 3rem 0;
+}
+
+
+/* project standard classes Ends */
+
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dflex-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+.componentsapcing {
+    padding: 3rem 0;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-7 {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+}
+
+.grid-8 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/*::: HEADER CODE STARTS HERE::: */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+    font-family: Poppins, sans-serif;
+}
+
+.navbar img{
+    margin-left: 20rem;
+}
+    
+.nav-link:hover{
+    color: #e23f17 !important;
+}
+    
+.collapse {
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 18rem;
+}
+.collapse a{
+    margin-right: 3rem;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    color: #0e00cef6;
+    font-size: 15px;
+}
+
+.Industriescontainer {
+    background-color: #5134b3;
+    padding: 6rem 0rem;
+}
+
+.Industriestext h1 {
+    font-size: 4.5rem;
+    color: #fff;
+    font-weight: 700;
+    font-family: Open Sans, sans-serif;
+}
+
+.line li a {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    margin-right: 3rem;
+    font-family: Open Sans, sans-serif;
+    text-decoration: none;
+}
+
+.nav-item button {
+    padding: 18px 70px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1;
+    width: 100%;
+    font-size: 14px;
+    color: #332e2ec4;
+}
+
+.nav-link {
+    color: #88898b;
+    font-size: 17px;
+}
+.container ul li a:hover {
+    background-color: #f96526;
+    color: white;
+}
+
+.container ul li button:hover {
+    background-color: #f96526;
+    color: #fff !important;
+}
+.Insurancecol {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+}
+
+.Insurancecol h1 {
+    color: #b9b9b9;
+    font-size: 28px;
+    top: -5px;
+    padding: 0rem 1rem 0rem 0rem;
+}
+
+.Insurancecol h3 {
+    font-size: 20px;
+    font-family: Open Sans, sans-serif;
+    color: #070337;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 0.5rem 0rem 0rem 0rem;
+}
+
+.Insurancerow {
+    padding: 5rem 3rem 0rem 0rem;
+}
+
+.apptext p {
+    font-family: Open Sans, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #4b4a61;
+    margin-bottom: 15px;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+.Insuranceimg {
+    padding: 10rem 0rem 10rem 0rem;
+}
+
+.Insuranceimg img {
+    width: 95%;
+    border-radius: 10px;
+    position: sticky;
+    /* height: 500px; */
+}
+
+
+.Infrastructurerow ul li i {
+    margin-right: 10px;
+    font-size: 17px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.digitalcol {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+}
+
+
+
+.digitalcol h1 {
+    color: #b9b9b9;
+    font-size: 28px;
+    top: -5px;
+    padding: 0rem 1rem 0rem 0rem;
+}
+
+.digitalcol h3 {
+    font-size: 20px;
+    font-family: Open Sans, sans-serif;
+    color: #070337;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.digitalrow {
+    padding: 5rem 3rem 0rem 0rem;
+}
+
+.dmtext p {
+    font-family: Open Sans, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #4b4a61;
+    margin-bottom: 15px;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+.unorder ul li {
+    font-family: Open Sans, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333583;
+    margin-bottom: 10px;
+    position: relative;
+    margin-left: 0rem;
+}
+
+.unorder ul li i {
+    color: #f38733;
+    margin-right: 10px;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.contactrow1 {
+    background-color: #f96526;
+    padding: 3rem 0rem 3rem 3rem;
+}
+
+.contactcol1 i {
+    color: white;
+    font-size: 3rem;
+}
+
+.contactcol1 h6 {
+    font-size: 2.5rem;
+    color: white;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+}
+
+.contactrow1 p {
+    color: white;
+    font-family: Open Sans, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 4.5rem;
+}
+
+.contactrow2 {
+    background-color: #fc5022;
+    padding: 3rem 0rem 3rem 3rem;
+}
+
+.contactcol2 i {
+    color: white;
+    font-size: 3rem;
+}
+
+.contactcol2 h6 {
+    font-size: 2.5rem;
+    color: white;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+}
+
+.contactrow2 p {
+    color: white;
+    font-family: Open Sans, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 4.5rem;
+}
+
+.contactrow3 {
+    background-color: #eb3505;
+    padding: 3rem 0rem 3rem 3rem;
+}
+
+.contactcol3 i {
+    color: white;
+    font-size: 3rem;
+}
+
+.contactcol3 h6 {
+    font-size: 2.5rem;
+    color: white;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+}
+
+.contactrow3 h5 {
+    color: white;
+    font-family: Open Sans, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-left: 4.5rem;
+}
+
+.contactformcontainer {
+    background-color: #000b41;
+    padding: 10rem 18rem;
+}
+
+.contactlist1 img {
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.contactlist1 p {
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    color: #9da4ac;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.contactlist2 {
+    margin-left: 7rem;
+}
+
+.contactlist2 h2 {
+    font-size: 19px;
+    color: #fff;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.contactlist2 li a {
+    color: #9da4ac;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 2rem;
+    text-decoration: none;
+}
+
+.contactlist3 h2 {
+    font-size: 19px;
+    color: #fff;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.contactlist3 li a {
+    color: #9da4ac;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 2rem;
+    text-decoration: none;
+}
+
+.contactlist2 li {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.contactlist3 li {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.contactlist4 {
+    margin-right: 10rem;
+}
+
+.contactlist4 h2 {
+    font-size: 19px;
+    color: #fff;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.logo {
+    justify-content: space-around;
+    padding: 0rem 10rem 0rem 0rem;
+}
+
+.logo li a {
+    font-size: 2rem;
+    color: #9da4ac;
+}
+
+.endfootercontainer {
+    background-color: #000937;
+    padding: 3rem 0rem;
+}
+
+.endcol h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #888792;
+    font-family: Open Sans, sans-serif;
+}
+
+span {
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    color: #9da4ac;
+    font-size: 17px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px white;
+    border: white;
+}
+
+@media(width <=576px) {
+
+    .navcontainer,
+    .Industriescontainer,
+    .Insurancecontainer,
+    .contactaddresscontainer,
+    .contactformcontainer,
+    .endfootercontainer
+     {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        max-width: 576px;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns:1fr;
+}
+
+.grid-5 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-6 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-7 {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+.grid-8 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.navbar img{
+    margin-left: 0rem;
+}
+.collapse {
+    justify-content: flex-start;
+    display: flex;
+    margin-right: 0rem;
+}
+.collapse a{
+    margin-right: 0rem;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.Industriescontainer {
+    padding: 5rem 0rem;
+}
+
+.Industriestext h1 {
+    font-size: 3.5rem;
+}
+
+.line li a {
+    font-size: 17px;
+    margin-right: 2rem;
+}
+
+.nav-item button {
+    padding: 15px 64px;
+    color: #332e2ec4;
+}
+
+.Insurancecol h1 {
+    font-size: 25px;
+    padding: 0rem 1rem 3rem 0rem;
+}
+
+.Insurancecol h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 0.5rem 0rem 0rem 0rem;
+}
+
+.Insurancerow {
+    padding: 5rem 3rem 0rem 3rem;
+}
+
+.apptext p {
+    padding: 0rem 0rem 0rem 2rem;
+}
+
+.Insuranceimg {
+    padding: 5rem 0rem 7rem 3rem;
+}
+
+.Insuranceimg img {
+    width: 95%;
+    border-radius: 10px;
+}
+
+
+.Infrastructurerow ul li i {
+    margin-right: 7px;
+    font-size: 14px;
+    width: 15px;
+    height: 15px;
+}
+
+.digitalcol {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+}
+
+.digitalcol h1 {
+    font-size: 25px;
+    padding: 0rem 1rem 3rem 0rem;
+}
+
+.digitalcol h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 0.5rem 0rem 0rem 0rem;
+}
+.digitalrow {
+    padding: 5rem 3rem 0rem 3rem;
+}
+
+.dmtext p {
+    padding: 0rem 0rem 0rem 2rem;
+}
+
+.unorder ul li {
+    margin-right: 7px;
+    font-size: 16px;
+}
+
+.unorder ul li i {
+    margin-right: 7px;
+    font-size: 14px;
+}
+
+.contactrow1 {
+    padding: 2rem 0rem 3rem 2.5rem;
+}
+    
+.contactcol1 i {
+    font-size: 2.6rem;
+}
+    
+.contactcol1 h6 {
+    font-size: 2.3rem;
+}
+    
+.contactrow1 p {
+    font-size: 15px;
+    margin-left: 5rem;
+}
+    
+.contactrow2 {
+    padding: 3rem 0rem 3rem 3rem;
+}
+    
+.contactcol2 i {
+    font-size: 2.6rem;
+}
+    
+.contactcol2 h6 {
+    font-size: 2.3rem;
+}
+    
+.contactrow2 p {
+    margin-left: 5rem;
+}
+
+.contactrow3 {
+    padding: 2rem 0rem 3rem 2.5rem;
+}
+    
+.contactcol3 i {
+    font-size: 2.6rem;
+}
+    
+.contactcol3 h6 {
+    font-size: 2.3rem;
+}
+
+.contactrow3 h5 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-left: 5rem;
+}
+    
+.contactformcontainer {
+    padding: 8rem 0rem 2rem 2rem;
+    gap: 20px; 
+}
+
+.contactlist1 img {
+    width: 70%;
+    margin-bottom: 0rem;
+}
+
+.contactlist1 p {
+    margin-top: 3rem;
+}
+    
+.contactlist2 {
+ padding: 2rem 0rem;
+ margin-left: 0rem;
+}
+    
+.contactlist2 h2 {
+    margin-bottom: 2rem;
+}
+
+.contactlist3 {
+    padding: 0rem 0rem 2rem 0rem;
+    margin-left: 0rem;
+}
+
+.endfootercontainer {
+    padding: 4rem 0rem 12rem 0rem;
+}
+
+}

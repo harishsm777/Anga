@@ -1,0 +1,947 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+    /* border: 1px solid red; */
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p {
+    text-wrap: balance;
+}
+
+input,
+textarea,
+button {
+    font-family: inherit
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+ :root {
+    --primaryColor: #ffffff;
+    --secondaryColor: #660600;
+    --darkColor: #081616;
+    --lightColor: #a5aaa9;
+    --regularFont: 1.6rem;
+    --headingFont: 54px;
+    --ffPrimary: "Raleway", sans-serif;
+}
+
+
+/* Default code Ends here */
+
+
+/* project standard classes Starts */
+
+.align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+.componentSpacing {
+    padding: 3rem 0;
+}
+
+
+/* project standard classes Ends */
+
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dflex-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+.componentsapcing {
+    padding: 3rem 0;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-7 {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+}
+
+/* a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+} */
+
+
+/*::: HEADER CODE STARTS HERE::: */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+    font-family: Poppins, sans-serif;
+}
+
+.navbar img{
+margin-left: 20rem;
+
+}
+
+.nav-link:hover{
+    color: #e23f17 !important;
+}
+
+.collapse {
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 18rem;
+}
+.collapse a{
+    margin-right: 3rem;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    color: #0e00cef6;
+    font-size: 15px;
+}
+
+.herocontainer {
+    background-color: #5134b3;
+    padding: 0rem 0rem 17rem 0rem;
+}
+
+.herotext {
+    padding: 11rem 0rem 0rem 22rem;
+}
+
+.herotext h1 {
+    color: white;
+    font-size: 6rem;
+    font-family: Open Sans, sans-serif;
+    margin-bottom: 1.7rem;
+}
+
+.herotext p {
+    color: rgb(175, 170, 170);
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.herotext button {
+    padding: 1.4rem 2.3rem;
+    background-color: #563ab5;
+    border-radius: 10px;
+    color: inherit;
+    border: 2px solid #ffffff;
+}
+
+.herotext button:hover {
+    background-color: #0d0525;
+}
+
+.herotext button a {
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.positioncol img {
+    position: absolute;
+    /* top: 50px; */
+    top: 623px;
+}
+
+.servicescontainer {
+    padding: 6rem 0rem;
+}
+
+.serviceecol {
+    margin-bottom: 5rem;
+}
+
+.servicecol h4 {
+    font-size: 1.7rem;
+    font-family: Open Sans, sans-serif;
+}
+
+.servicecol h2 {
+    color: #212266;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Open Sans, sans-serif;
+}
+
+.servicesBody {
+    padding: 0rem 10rem;
+}
+
+.servicecardimg {
+    padding: 0rem 3rem;
+}
+
+.cardborder {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.cardtext h3 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 5rem 0rem 1.5rem 1.3rem;
+    font-family: Poppins, sans-serif;
+}
+
+.cardtext p {
+    font-size: 1.4rem;
+    padding: 0rem 0rem 4rem 1.3rem;
+    color: #000000b2;
+}
+
+.imgrow {
+    margin-top: 7rem;
+}
+
+.imgrow img {
+    width: 100px;
+}
+
+.imgrow h5 {
+    font-size: 4rem;
+    align-items: flex-end;
+    justify-content: end;
+    display: flex;
+    padding: 0rem 2rem;
+    color: rgba(0, 0, 0, 0.233);
+}
+
+.cardborder h3 {
+    font-family: Open Sans, sans-serif;
+    color: #070337;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 1rem;
+    padding: 0rem 2rem;
+}
+
+.cardborder p {
+    font-family: Open Sans, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 4rem;
+    padding: 2rem 1rem 3rem 2rem;
+    background-color: #e8e4e4;
+}
+
+.cardborder1 {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.cardborder1 h3 {
+    font-family: Open Sans, sans-serif;
+    color: #070337;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 1rem;
+    padding: 0rem 2rem;
+}
+
+.cardborder1 p {
+    font-family: Open Sans, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 4rem;
+    padding: 2rem 0rem 3rem 2rem;
+    background-color: #5134b3;
+}
+
+.buttoncol {
+    padding: 8rem 0rem 0rem 0rem;
+}
+
+.buttoncol button {
+    padding: 1.5rem 3rem;
+    border-radius: 1rem;
+    outline: #5134b3;
+    border: 2px solid #5134b3;
+}
+
+.buttoncol button a {
+    color: #5134b3;
+    text-decoration: none;
+}
+
+.buttoncol button:hover {
+    background-color: #5134b3;
+}
+
+.buttoncol button a:hover {
+    color: white;
+}
+
+.infotechrow {
+    background-image: linear-gradient(rgba(133, 124, 124, 0.185), rgba(0, 0, 0, 0.2)), url(/assestes/images/backhome.svg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.infotechcol {
+    color: white;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+    padding: 0rem 0rem 0rem 20rem;
+}
+
+.infotechcol h5 {
+    color: white;
+    font-size: 1.7rem;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+}
+
+.infotechcol h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Open Sans, sans-serif;
+}
+
+.infotechcol p {
+    color: #d0d0d0;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: Open Sans, sans-serif;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+}
+
+.infotechimg img {
+    width: 60%;
+    height: 800px;
+    margin-left: 13rem;
+}
+
+.ourproductcontainer {
+    padding: 6rem 0rem;
+}
+
+.ourproductcol {
+    margin-bottom: 5rem;
+}
+
+.ourproductcol h4 {
+    font-size: 1.7rem;
+    font-family: Open Sans, sans-serif;
+}
+
+.ourproduct h2 {
+    color: #212266;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Open Sans, sans-serif;
+}
+
+.productimgrow img {
+    padding: 0rem 1.5rem;
+}
+
+.contactrow1 {
+    background-color: #f96526;
+    padding: 3rem 0rem 3rem 3rem;
+}
+
+.contactcol1 i {
+    color: white;
+    font-size: 3rem;
+}
+
+.contactcol1 h6 {
+    font-size: 2.5rem;
+    color: white;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+}
+
+.contactrow1 p {
+    color: white;
+    font-family: Open Sans, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 4.5rem;
+}
+
+.contactrow2 {
+    background-color: #fc5022;
+    padding: 3rem 0rem 3rem 3rem;
+}
+
+.contactcol2 i {
+    color: white;
+    font-size: 3rem;
+}
+
+.contactcol2 h6 {
+    font-size: 2.5rem;
+    color: white;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+}
+
+.contactrow2 p {
+    color: white;
+    font-family: Open Sans, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 4.5rem;
+}
+
+.contactrow3 {
+    background-color: #eb3505;
+    padding: 3rem 0rem 3rem 3rem;
+}
+
+.contactcol3 i {
+    color: white;
+    font-size: 3rem;
+}
+
+.contactcol3 h6 {
+    font-size: 2.5rem;
+    color: white;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+}
+
+.contactrow3 h5 {
+    color: white;
+    font-family: Open Sans, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-left: 4.5rem;
+}
+
+.contactformcontainer {
+    background-color: #000b41;
+    padding: 10rem 18rem;
+}
+
+.contactlist1 img {
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.contactlist1 p {
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    color: #9da4ac;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.contactlist2 {
+    margin-left: 7rem;
+}
+
+.contactlist2 li{ 
+    list-style-type: none;
+}  
+
+.contactlist2 h2 {
+    font-size: 19px;
+    color: #fff;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.contactlist2 li a {
+    color: #9da4ac;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 2rem;
+    text-decoration: none;
+}
+
+.contactlist3 h2 {
+    font-size: 19px;
+    color: #fff;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.contactlist3 li{
+    list-style-type: none;
+    text-decoration: none;
+}
+.contactlist3 li a {
+    color: #9da4ac;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 2rem;
+    text-decoration: none;
+}
+
+.contactlist2 li {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.contactlist3 li {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.contactlist4 {
+    margin-right: 10rem;
+}
+
+.contactlist4 h2 {
+    font-size: 19px;
+    color: #fff;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.logo {
+    justify-content: space-around;
+    padding: 0rem 10rem 0rem 0rem;
+}
+
+.logo li a {
+    font-size: 2rem;
+    color: #9da4ac;
+   
+}
+
+.endfootercontainer {
+    background-color: #000937;
+    padding: 3rem 0rem;
+}
+
+.endcol h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #888792;
+    font-family: Open Sans, sans-serif;
+}
+
+span {
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a:hover{
+    background-color: white;
+}
+
+.social-icons a i:hover {
+    color: #03156b;
+}
+.icon {
+    color: #9da4ac;
+    font-size: 17px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px white;
+    border: white;
+}
+
+
+@media(width <=576px) {
+
+    .navcontainer,
+    .herocontainer,
+    .positioncontainer,
+    .servicescontainer,
+    .infotechprocesscontainer,
+    .ourproductcontainer,
+    .contactaddresscontainer,
+    .contactformcontainer,
+    .endfootercontainer
+     {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        max-width: 576px;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns:1fr;
+}
+
+.grid-5 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-6 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-7 {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+.navbar img{
+    margin-left: 0rem;
+}
+.collapse {
+    justify-content: flex-start;
+    display: flex;
+    margin-right: 0rem;
+}
+.collapse a{
+    margin-right: 0rem;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.herocontainer {
+    padding: 0rem 0rem 0rem 0rem;
+}
+    
+.herotext {
+    padding: 5rem 0rem 0rem 1.5rem;
+}
+    
+.herotext h1 {
+    font-size: 4rem;
+    margin-bottom: 6rem;
+    font-weight: 700;
+}
+    
+.herotext p {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+}
+    
+.herotext button {
+    padding: 1.4rem 2.6rem;
+    border-radius: 10px;
+}
+    
+.herotext button a {
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+    
+.positioncol img {
+    position: absolute;
+    top: 737px;
+}
+    
+.servicescontainer {
+    padding: 3rem 0rem;
+}
+    
+.serviceecol {
+    margin-bottom: 0rem;
+}
+    
+.servicecol h4 {
+    font-size: 1.5rem;
+}
+    
+.servicecol h2 {
+   font-size: 27px;
+   font-weight: 800;
+}
+    
+.servicesBody {
+    padding: 0rem 10rem;
+}
+    
+.servicecardimg {
+    padding: 0rem 0rem;
+}
+    
+.cardtext h3 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 0rem 0rem 0rem 0rem;
+}
+    
+.cardtext p {
+    font-size: 1.4rem;
+    padding: 0rem 0rem 0rem 0rem;
+}
+    
+.imgrow {
+    margin-top: 6rem;
+}
+    
+.imgrow img {
+    width: 80px;
+}
+    
+.imgrow h5 {
+    font-size: 3.5rem;
+    padding: 0rem 0rem;
+}
+    
+.cardborder h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0rem;
+    padding: 0rem 0rem;
+}
+    
+.cardborder p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 3rem;
+    padding: 0rem 0rem 0rem 0rem;
+   
+}
+.cardborder1 h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0rem;
+    padding: 0rem 0rem;
+}
+    
+.cardborder1 p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 3rem;
+    padding: 0rem 0rem 0rem 0rem;
+}
+    
+.buttoncol {
+    padding: 8rem 0rem 0rem 0rem;
+}
+    
+.buttoncol button {
+    padding: 1.5rem 2rem;
+}
+
+.infotechcol {
+    padding: 20rem 0rem 0rem 3rem;
+}
+    
+.infotechcol h5{
+    font-size: 1.5rem;
+ }
+    
+.infotechcol h2 {
+    font-size: 30px;
+    font-weight: 800;
+}
+    
+.infotechimg img {
+    width: 100%;
+    height: 400px;
+    margin-left: 0rem;
+}
+    
+.ourproductcontainer {
+    padding: 8rem 0rem;
+}
+    
+.ourproductcol {
+    margin-bottom: 5rem;
+}
+    
+.ourproductcol h4 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+    
+.ourproduct h2 {
+    font-size: 27px;
+    font-weight: 800;
+}
+    
+.productimgrow img {
+    padding: 2rem 0rem 2rem 5rem;
+}
+    
+.contactrow1 {
+    padding: 2rem 0rem 3rem 2.5rem;
+}
+    
+.contactcol1 i {
+    font-size: 2.6rem;
+}
+    
+.contactcol1 h6 {
+    font-size: 2.3rem;
+}
+    
+.contactrow1 p {
+    font-size: 15px;
+    margin-left: 5rem;
+}
+    
+.contactrow2 {
+    padding: 3rem 0rem 3rem 3rem;
+}
+    
+.contactcol2 i {
+    font-size: 2.6rem;
+}
+    
+.contactcol2 h6 {
+    font-size: 2.3rem;
+}
+    
+.contactrow2 p {
+    margin-left: 5rem;
+}
+
+.contactrow3 {
+    padding: 2rem 0rem 3rem 2.5rem;
+}
+    
+.contactcol3 i {
+    font-size: 2.6rem;
+}
+    
+.contactcol3 h6 {
+    font-size: 2.3rem;
+}
+
+.contactrow3 h5 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-left: 5rem;
+}
+    
+.contactformcontainer {
+    padding: 8rem 0rem 2rem 2rem;
+    gap: 20px; 
+}
+
+.contactlist1 img {
+    width: 70%;
+    margin-bottom: 0rem;
+}
+
+.contactlist1 p {
+    margin-top: 3rem;
+}
+    
+.contactlist2 {
+ padding: 2rem 0rem;
+ margin-left: 0rem;
+}
+    
+.contactlist2 h2 {
+    margin-bottom: 2rem;
+}
+
+.contactlist3 {
+    padding: 0rem 0rem 2rem 0rem;
+    margin-left: 0rem;
+}
+
+.endfootercontainer {
+    padding: 4rem 0rem 12rem 0rem;
+}
+    
+}

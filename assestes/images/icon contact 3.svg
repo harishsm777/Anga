@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63" height="63" viewBox="0 0 63 63">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#382092"/>
+      <stop offset="1" stop-color="#6d4dd0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#c8f2ff"/>
+    </linearGradient>
+  </defs>
+  <g id="ico-2" transform="translate(-562 -395)">
+    <circle id="Ellipse_14" data-name="Ellipse 14" cx="31.5" cy="31.5" r="31.5" transform="translate(562 395)" fill="url(#linear-gradient)"/>
+    <g id="mail_1_" data-name="mail (1)" transform="translate(577.148 339.003)">
+      <g id="Group_192" data-name="Group 192" transform="translate(22.496 77.643)">
+        <g id="Group_191" data-name="Group 191">
+          <path id="Path_443" data-name="Path 443" d="M362.129,101.721l-9.918,9.854,9.918,9.854a2.841,2.841,0,0,0,.288-1.231V102.952A2.841,2.841,0,0,0,362.129,101.721Z" transform="translate(-352.211 -101.721)" fill="url(#linear-gradient-2)"/>
+        </g>
+      </g>
+      <g id="Group_194" data-name="Group 194" transform="translate(1.643 76)">
+        <g id="Group_193" data-name="Group 193">
+          <path id="Path_444" data-name="Path 444" d="M53.906,76H26.952a2.841,2.841,0,0,0-1.231.288L38.4,88.9a2.877,2.877,0,0,0,4.064,0L55.138,76.288A2.841,2.841,0,0,0,53.906,76Z" transform="translate(-25.721 -76)" fill="url(#linear-gradient-2)"/>
+        </g>
+      </g>
+      <g id="Group_196" data-name="Group 196" transform="translate(0 77.643)">
+        <g id="Group_195" data-name="Group 195">
+          <path id="Path_445" data-name="Path 445" d="M.288,101.721A2.841,2.841,0,0,0,0,102.952V120.2a2.841,2.841,0,0,0,.288,1.231l9.918-9.854Z" transform="translate(0 -101.721)" fill="url(#linear-gradient-2)"/>
+        </g>
+      </g>
+      <g id="Group_198" data-name="Group 198" transform="translate(1.643 88.852)">
+        <g id="Group_197" data-name="Group 197">
+          <path id="Path_446" data-name="Path 446" d="M45.22,277.211l-1.4,1.4a4.8,4.8,0,0,1-6.774,0l-1.4-1.4-9.918,9.854a2.841,2.841,0,0,0,1.231.288H53.906a2.841,2.841,0,0,0,1.231-.288Z" transform="translate(-25.721 -277.211)" fill="url(#linear-gradient-2)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
